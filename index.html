@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">Kelvin</div>
+
+            <!-- скрытый checkbox -->
+            <input type="checkbox" id="menu-toggle">
+
+            <!-- бургер -->
+            <label for="menu-toggle" class="burger">
+                ☰
+            </label>
+
+            <!-- меню -->
+            <nav class="nav">
+                <a href="#!" class="btnhome">Home</a>
+                <a href="#!">Works</a>
+                <a href="#!">Services</a>
+                <a href="#!">About</a>
+                <a href="#!">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        
+            <section class="hero">
+                <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1 class="header-title">Kelvin Kramer <br>Designer & Developer</h1>
+                    <p>I’m a portrait, fashion and lifestyle photographer living In New York City. <br>During my
+                        thirteen
+                        year
+                        tenure here.</p>
+                </div>
+
+                <img src="./img/hero.png" srcset="./img/hero@2x.png 2x" alt="Photo" class="header-img">
+        </div>
+        </section>
+        <div class="container">
+            <section class="services">
+                <div class="service">
+                    <img src="./img/icons/graphic 1.svg" alt="UI/UX Design">
+                    <h3>UI/UX Design</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development
+                        standards.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/icons/startup 1.svg" alt="Development">
+                    <h3>Development</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development
+                        standards.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/icons/browser 1.svg" alt="Software testing">
+                    <h3>Software testing</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development
+                        standards.</p>
+                </div>
+
+
+            </section>
+
+            <section class="Portfolio">
+                <h2 class="portfolio-title">Portfolio</h2>
+
+                <div class="projects">
+                    <article class="project" data-aos="zoom-in" data-aos-delay="200">
+                        <a href="./Online fashion store.html">
+                            <img src="./img/projects/Слой 8.jpg" srcset="./img/projects/Слой 8@2x.jpg 2x"
+                                alt="Online fashion store - Homepage" class="project-img"></a>
+                        <h3 class="project-title"><a href="./Online fashion store.html">Online fashion store -
+                                Homepage</a>
+                        </h3>
+                    </article>
+
+                    <article class="project" data-aos="zoom-in" data-aos-delay="400">
+                        <a href="./Reebok Store.html">
+                            <img src="./img/projects/reebok_web.jpg" srcset="./img/projects/reebok_web@2x.jpg 2x"
+                                alt="Reebok Store - Concept" class="project-img">
+                        </a>
+                        <h3 class="project-title">
+                            <a href="./Reebok Store.html">Reebok Store - Concept</a>
+                        </h3>
+                    </article>
+
+                    <article class="project" data-aos="zoom-in" data-aos-delay="800">
+                        <a href="./Braun Landing Page.html">
+                            <img src="./img/projects/Braun Landing_web.jpg"
+                                srcset="./img/projects/Braun Landing_web@2x.jpg 2x" alt="Braun Landing Page - Concept"
+                                class="project-img">
+                        </a>
+                        <h3 class="project-title">
+                            <a href="./Braun Landing Page.html">Braun Landing Page - Concept</a>
+                        </h3>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <h2>Contacts</h2>
+                <p>Want to know more or just chat? <br>You are welcome!</p>
+                <button>Send message</button>
+
+                <div class="messengers">
+                    <a href="https://www.linkedin.com">
+                        <img src="./img/icons/LinkedIn.svg">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="./img/icons/Instargam.svg">
+                    </a>
+                    <a href="https://www.behance.com">
+                        <img src="./img/icons/Behance.svg">
+                    </a>
+                    <a href="https://www.dribble.com">
+                        <img src="./img/icons/Dribble.svg">
+                    </a>
+                </div>
+                <p class="likeme">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+            </section>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>
